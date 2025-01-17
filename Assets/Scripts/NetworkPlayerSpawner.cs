@@ -17,7 +17,7 @@ public class NetworkPlayerSpawner : MonoBehaviourPunCallbacks
             spawnedPlayerPrefab = PhotonNetwork.Instantiate("Network Player", transform.position, transform.rotation);
         }
         else
-        {
+        { 
             Debug.LogWarning("Player prefab already spawned!"); // Debug warning to detect unexpected behavior
         }
     }
