@@ -24,7 +24,7 @@ public class NetworkPlayer : MonoBehaviourPun, IPunObservable
     public Transform LeftHand;
     public Transform RightHand;
 
-    private PhotonView photonView;
+    private new PhotonView photonView;
 
     public Animator LeftHandAnimator;
     public Animator RightHandAnimator;
